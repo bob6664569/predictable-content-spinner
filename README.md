@@ -59,7 +59,7 @@ Example:
 
 ```js
 // Get factory function
-const spinFactory = require('string-content-spinner').factory;
+const spinFactory = require('content-spinner').factory;
 
 // Generate new spin function with custom section markers and delimiter
 const spin = spinFactory('[[', ']]', '::');
