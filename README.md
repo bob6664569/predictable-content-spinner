@@ -6,6 +6,11 @@ Node.js recursive content spinner algorithm with available predictable behavior.
 
 Based on [string-content-spinner](https://github.com/heek/string-content-spinner) ([@heek](https://github.com/heek/))
 
+## Install
+```
+npm i content-spinner
+```
+
 ## API
 
 ### The `spin` function
@@ -32,7 +37,7 @@ This will log either `Hello world` or `Good morning world`.
 ### Example with a seed parameter:
 
 ```js
-const spin = require('predictable-content-spinner');
+const spin = require('content-spinner');
 
 const result = spin('{Hello|Good morning} world', 'Random text');
 
