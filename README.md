@@ -2,7 +2,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Node.js recursive content spinner algorithm with repeatable behavior. 
+Node.js recursive content spinner algorithm with available predictable behavior. 
 
 Based on [string-content-spinner](https://github.com/heek/string-content-spinner) ([@heek](https://github.com/heek/))
 
@@ -27,7 +27,7 @@ const result = spin('{Hello|Good morning} world');
 
 console.log(result);
 ```
-This will log either `Hello world` or `Good morning`.
+This will log either `Hello world` or `Good morning world`.
 
 ### Example with a seed parameter:
 
@@ -38,7 +38,7 @@ const result = spin('{Hello|Good morning} world', 'Random text');
 
 console.log(result);
 ```
-This example will always product the same output with the same string passed
+This example will always product the same output with the same string passed as the second parameter.
 
 ### The `factory` function
 
